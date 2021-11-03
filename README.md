@@ -3,7 +3,7 @@
 </div>
 
 <div align="center">
-  <h3>Webapp for harisenin.com by NextJS</h3>
+  <h3>Kick start a website cv portofolio</h3>
   <p> #1 Work-based Learning Platform. <br>
       🎓 Harisenin Millennials School <br>
       👨‍💼 1:1 Mentoring
@@ -26,16 +26,16 @@
       Website
     </a>
     <span> | </span>
-    <a href="https://www.harisenin.com">
-      Guides
+    <a href="https://www.harisenin.com/tentang-kami">
+      About Us
     </a>
     <span> | </span>
-    <a href="CONTRIBUTING.md">
-      Contributing
+    <a href="https://www.harisenin.com/bantuan-layanan">
+      FAQ
     </a>
 		<span> | </span>
-		<a href="flow-chart.png">
-			Flow chart
+		<a href="https://www.harisenin.com/syarat-ketentuan">
+			Term of Service
 		</a>
   </h3>
 
