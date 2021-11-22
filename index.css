@@ -1,6 +1,7 @@
 main{
     max-width: 768px;
     margin: 0 auto;
+    padding: 16px;
 }
 
 .flex{
@@ -11,9 +12,45 @@ main{
     justify-content: space-between;
 }
 
+.header__left{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.header__right{
+    flex: 3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header button {
+    background-color: #e7564e;
+    border-radius: 5px;
+    padding: 8px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.075rem;
+}
+
 #introduction{
     justify-content: space-between;
+    padding: 32px 0;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 8px;
 }
+#introduction p {
+    font-size: 1.5rem;
+    margin-bottom: 16px;
+}
+#introduction h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
 
 #information{
     justify-content: space-between;
