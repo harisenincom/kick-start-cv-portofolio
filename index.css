@@ -1,10 +1,10 @@
-main{
+main {
     max-width: 768px;
     margin: 0 auto;
     padding: 16px;
 }
 
-.flex{
+.flex {
     display: flex;
 }
 
@@ -14,19 +14,24 @@ main{
     margin-bottom: 24px;
 }
 
+.paragraph {
+    font-size: 1.15rem;
+    margin: 16px 0;
+}
+
 /* HEADER */
 
-.header{
+.header {
     justify-content: space-between;
 }
 
-.header__left{
+.header__left {
     flex: 1;
     display: flex;
     align-items: center;
 }
 
-.header__right{
+.header__right {
     flex: 3;
     display: flex;
     justify-content: space-around;
@@ -44,36 +49,48 @@ main{
 
 /* INTRODUCTION */
 
-#introduction{
+#introduction {
     justify-content: space-between;
     padding: 32px 0;
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-gap: 8px;
 }
+
 #introduction p {
     font-size: 1.5rem;
     margin-bottom: 16px;
 }
 
 /* INFORMATION */
-#information{
+#information {
     padding: 32px 0;
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-gap: 8px;
 }
 
-#information p {
-    font-size: 1.25rem;
-    margin: 16px 0;
-}
-
-
 .information__description {
     margin-top: 32px;
 }
 
-.information__description p {
-    font-size: 1.15rem;
+#experience {
+    display: flex;
+    flex-direction: column;
+}
+
+#experience h3.title {
+    text-align: center;
+}
+
+.experience__content {
+    margin-bottom: 16px;
+}
+
+.experience__content .date{
+    margin-bottom: 8px;
+}
+
+.experience__content .job{
+    font-weight: bold;
 }
