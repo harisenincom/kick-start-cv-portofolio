@@ -108,6 +108,10 @@ main {
     margin-top: 32px;
 }
 
+.information__detail p {
+    margin: 8px 0;
+}
+
 .information__left {
     position: relative;
 }
