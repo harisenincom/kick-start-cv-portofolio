@@ -36,7 +36,21 @@ main{
 
 #introduction{
     justify-content: space-between;
+    padding: 32px 0;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 8px;
 }
+#introduction p {
+    font-size: 1.5rem;
+    margin-bottom: 16px;
+}
+#introduction h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
 
 #information{
     justify-content: space-between;
