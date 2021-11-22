@@ -8,6 +8,14 @@ main{
     display: flex;
 }
 
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+/* HEADER */
+
 .header{
     justify-content: space-between;
 }
@@ -34,6 +42,8 @@ main{
     letter-spacing: 0.075rem;
 }
 
+/* INTRODUCTION */
+
 #introduction{
     justify-content: space-between;
     padding: 32px 0;
@@ -45,13 +55,25 @@ main{
     font-size: 1.5rem;
     margin-bottom: 16px;
 }
-#introduction h3 {
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 24px;
+
+/* INFORMATION */
+#information{
+    padding: 32px 0;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 8px;
+}
+
+#information p {
+    font-size: 1.25rem;
+    margin: 16px 0;
 }
 
 
-#information{
-    justify-content: space-between;
+.information__description {
+    margin-top: 32px;
+}
+
+.information__description p {
+    font-size: 1.15rem;
 }
