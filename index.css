@@ -1,0 +1,20 @@
+main{
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.header{
+    justify-content: space-between;
+}
+
+#introduction{
+    justify-content: space-between;
+}
+
+#information{
+    justify-content: space-between;
+}
