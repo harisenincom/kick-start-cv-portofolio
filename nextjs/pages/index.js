@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -8,10 +9,10 @@ export default function Home() {
       </Head>
 
       <main>
-        <header class="flex header">
-          <div class="header__left">My CV</div>
-          <div class="header__right">
-            <h4 class="bold">Home</h4>
+        <header className="flex header">
+          <div className="header__left">My CV</div>
+          <div className="header__right">
+            <h4 className="bold">Home</h4>
             <h4>About</h4>
             <h4>Portofolio</h4>
           </div>
@@ -19,12 +20,12 @@ export default function Home() {
         </header>
         <section>
           <section id="introduction">
-            <div class="introduction__left">
-              <div class="introduction__title">
+            <div className="introduction__left">
+              <div className="introduction__title">
                 <p>Hello my name is !</p>
-                <h3 class="title">Mirza Chilman.</h3>
+                <h3 className="title">Baiq.</h3>
               </div>
-              <div class="introduction__description">
+              <div className="introduction__description">
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Animi deleniti dicta dolor incidunt maxime necessitatibus
@@ -33,48 +34,50 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <div class="introduction__right">
-              <img
+            <div className="introduction__right">
+              <Image
                 src="/michael-dam-mEZ3PoFGs_k-unsplash-min.png"
                 height="300"
+                width="200"
                 alt="profile-picture"
               />
             </div>
           </section>
           <section id="information">
-            <div class="information__left">
-              <img
+            <div className="information__left">
+              <Image
                 src="/michael-dam-mEZ3PoFGs_k-unsplash-min.png"
                 height="300"
                 alt="profile-picture"
+                width="200"
               />
             </div>
-            <div class="information__right">
-              <div class="information__title">
-                <h3 class="title">Personal Detail</h3>
+            <div className="information__right">
+              <div className="information__title">
+                <h3 className="title">Personal Detail</h3>
               </div>
-              <div class="information__detail">
+              <div className="information__detail">
                 <p>
                   <span>
-                    <i class="fa fa-user"></i>&nbsp;Mirza
+                    <i className="fa fa-user"></i>&nbsp;Mirza
                   </span>
                 </p>
                 <p>
                   <span>
-                    <i class="fa fa-calendar" aria-hidden="true"></i>
+                    <i className="fa fa-calendar" aria-hidden="true"></i>
                     &nbsp;Jakarta, 01 Januari 1990
                   </span>
                 </p>
                 <p>
                   <span>
-                    <i class="fa fa-envelope-o" aria-hidden="true">
+                    <i className="fa fa-envelope-o" aria-hidden="true">
                       &nbsp;mirza@rocket.com
                     </i>
                   </span>
                 </p>
               </div>
-              <div class="information__description">
-                <p class="paragraph">
+              <div className="information__description">
+                <p className="paragraph">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Animi atque consectetur eum id necessitatibus nisi obcaecati
                   quo tenetur. Corporis doloremque error expedita impedit, iste
@@ -84,11 +87,11 @@ export default function Home() {
             </div>
           </section>
           <section id="experience">
-            <h3 class="title">Work Experience</h3>
-            <div class="experience__content">
-              <p class="date">Januari 2020 - sekarang</p>
-              <h3 class="job">SOFTWARE ENGINEER</h3>
-              <p class="paragraph">
+            <h3 className="title">Work Experience</h3>
+            <div className="experience__content">
+              <p className="date">Januari 2020 - sekarang</p>
+              <h3 className="job">SOFTWARE ENGINEER</h3>
+              <p className="paragraph">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Asperiores dolore fugiat id maiores nesciunt optio quae repellat
                 rerum suscipit? Accusantium beatae delectus deleniti eos illo
@@ -96,10 +99,10 @@ export default function Home() {
               </p>
             </div>
 
-            <div class="experience__content">
-              <p class="date">Januari 2018 - Januari 2020</p>
-              <h3 class="job">SOFTWARE ENGINEER</h3>
-              <p class="paragraph">
+            <div className="experience__content">
+              <p className="date">Januari 2018 - Januari 2020</p>
+              <h3 className="job">SOFTWARE ENGINEER</h3>
+              <p className="paragraph">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Asperiores dolore fugiat id maiores nesciunt optio quae repellat
                 rerum suscipit? Accusantium beatae delectus deleniti eos illo
