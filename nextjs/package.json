@@ -1,6 +1,10 @@
 {
   "name": "nextjs",
   "private": true,
+  "engines": {
+    "node": "14.x"
+  },
+  "cacheDirectories":["./next/cache"],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
